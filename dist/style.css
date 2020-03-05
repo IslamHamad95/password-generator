@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding:0;
+  background-color:#4DB6AC;
+}
+
+#title{
+  text-align: center;
+  margin-top:10%;
+  position:relative;
+  color: white;
+  text-shadow
+}
+.generator{
+  background-color: #00897B;
+  margin-left:30%;
+  margin-top:5%;
+  border:2px black ;
+   box-shadow: 10px 10px 5px grey;
+  display:block;
+  width:30%;
+ padding-left:5%;
+ padding-top:2%;
+ padding-bottom:2%;
+}
+.generator #pwform{
+    background-color: #00897B;
+}
+.generator #pwform #generated-password{
+  
+  width:60%;
+  margin-left:10%;
+  border: 2px solid black;
+  padding:1%;
+  background-color:white;
+}
+
+.generator #pwform #generate-button{
+    
+  margin-top:10%;
+  margin-left:25%;
+  border: 2px solid black;
+  text-align:center;
+  padding:5%;
+  font-weight:600;
+  font-size:1.9vm;
+  background-color:#E0F2F1;
+  
+}
