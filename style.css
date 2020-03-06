@@ -17,17 +17,18 @@ label{
 .generator{
   background-color: #00897B;
   margin-left:30%;
+  margin-right: 30%;
   margin-top:5%;
   border:2px black ;
    box-shadow: 10px 10px 5px grey;
-  display:block;
-  width:30%;
+
+  width:40%;
  padding-left:5%;
  padding-top:2%;
  padding-bottom:2%;
 }
 .generator #pwform{
-    background-color: #00897B;
+    background-color: inherit;
 }
 .generator #pwform #generated-password{
   
@@ -59,7 +60,9 @@ label{
 }
 
 .radio-btns{
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right:10%;
   background-color: inherit;
 }
 .radio-btns>*{
@@ -73,4 +76,17 @@ p{
   font-weight: bold;
   color: wheat;
   display: none;
+}
+@media screen and (max-width:1024px){
+  #title{
+    margin-top:50%
+  }
+  .generator{
+    width:80%;
+    margin:0% 10% 0% 10%;
+
+    
+  }
+ 
+
 }
