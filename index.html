@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Password Generator</title>
   <link rel="stylesheet" href="style.css">
+  
  
 </head>
 <body>
   <h1 id="title">Password Generator</h1>
 <div class="generator">
   <form id="pwform" href="#">
-    <input type="text" id="generated-password" placeholder="Word" href="#"></input><br>
-
+    <input type="text" id="generated-password" placeholder="Word"></input>
+    <button id="copy-btn" type=button onclick="copyButton()">Copy</button>
+    <br>
+    <p id="textcopied">Password is copied</p>
+    <br>
+    <div class="radio-btns">
     <input type="radio" id="ten" name="password-length" value="10">
     <label for="ten">10 Characters long</label><br>
 
@@ -20,14 +25,15 @@
     <label for="fifteen">15 Characters long</label><br>
 
     <input type="radio" id="twenty" name="password-length" value="20">
-    <label for="twenty">20 Characters long</label><br>
+    <label for="twenty">20 Characters long</label>
+  </div>
 
-
-  <button id="generate-button"  onclick="myFunction()" href="#">Generate</button>
+  <button  type="button" id="generate-button"  onclick="myFunction()" >Generate</button>
   </form>
-  
+
   
 </div>
 </body>
 <script src="script.js"></script>
+<script src="copy-button.js"></script>
 </html>

@@ -40,7 +40,7 @@ label{
 
 .generator #pwform #generate-button{
     
-  margin-top:10%;
+  margin-top:5%;
   margin-left:25%;
   border: 2px solid black;
   text-align:center;
@@ -51,3 +51,26 @@ label{
   
 }
 
+#copy-btn{
+  padding: 1%;
+  background-color: white;
+  color: green;
+  font-weight: bold;
+}
+
+.radio-btns{
+  margin-left: 15%;
+  background-color: inherit;
+}
+.radio-btns>*{
+  margin: 0% 1% 2% 0%;
+}
+
+p{
+  margin-top: 2%;
+  margin-left: 25%;
+  background-color: inherit;
+  font-weight: bold;
+  color: wheat;
+  display: none;
+}
